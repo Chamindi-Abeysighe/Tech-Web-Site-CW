@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Watch List</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> <!--For Icons -->
+
+        <style>
+            body{
+              background-color: rgb(236, 234, 234) ;  /*#171717*/
+              font-family: Arial;
+            }
+            
+
+            .watch{
+                width: 100%;
+            }
+            .watch tr{
+                height: 250px;
+            }
+            
+            
+
+            .watch-item{
+                
+                width: 200px;
+                height: 200px;
+            }
+            .watch-item img{
+                width: 100%;
+                height: 100%;
+
+            }
+            ul{
+                list-style: none;
+                font-size: large;
+            }
+
+        h1{
+            
+            text-align: center;
+            margin-top: -150px;
+            
+        }
+        button{
+            width: 40px;
+            height: 40px;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            background-color: #babbbe;
+        }
+        .itms li{
+            text-align: center;
+        }
+        .crt{
+            width :70px;
+            height: 50px;
+            background-color: orange;
+            cursor: pointer;
+        }
+        tr{
+            width: fit-content;
+            height: fit-content;
+            
+    
+        }
+        td{
+            border-bottom: 1px solid #aaa7a7;
+        }
+        /*bottum*/
+        .bottom1{
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  background-color: rgb(205, 205, 207);
+  margin-top: 50px;
+  
+}
+.btm1,.btm2,.btm3,.btm4,.btm5,.btm6{
+ position: absolute;
+ margin-top: 50px;
+
+ 
+  
+}
+.btm{
+  list-style: none;
+}
+.btm1{
+ 
+  margin-left: 5%;
+  
+  
+}
+.btm3{
+  margin-left: 40%;
+}
+.btm2{
+ 
+  margin-left: 25%;
+}
+.btm4{
+ 
+  margin-left: 55%;
+}
+.btm5{
+ 
+  margin-left: 70%;
+}
+.btm6{
+ 
+  margin-left: 85%;
+}
+#spmore{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 40%;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  background-color: rgb(168, 173, 168);
+  color: black;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: large;
+}
+#spmore:hover{
+  background-color: rgb(2, 180, 2);
+  color: white;
+  }
+#c,#b,#r,#s{
+  width: 100px;
+  height: 30px;
+  margin-left: 1000px;
+  border: none;
+  font-size: large;
+  cursor: pointer;
+  background-color: rgb(236, 234, 234) ;
+  color: orangered;
+}
+
+#c:hover,#b:hover,#r:hover,#s:hover
+{
+  color: green;
+}
+.btm li{
+    margin-left: -50px;
+}
+.lname{
+  margin-left: 120px;
+  margin-top: -50px;
+}
+        </style>
+    </head>
+    <body>
+        
+          <div>
+            <div class="logo"><img src="nt.png" width="120px" height="120px"><h2 class="lname">New Tech</h2></div><br><br>
+            <h1 >My Watch List</h1><a href="shop.html" style="float: right; color: rgb(216, 95, 95);">Back To Shopping</a>
+          </div><br><br><br><br>
+    
+        <div style="background-color: white;">
+
+            <table class="watch">
+                
+                <tr>
+                    <td style="width: 20%;"><div class="watch-item"><img src="buffel.jpg"></td>
+                    <td style="width: 40%;">
+                        <ul class="itms">
+                           <li>Subwoofer with bluetooth Multimedia Speaker System - NSC 421B</li><br>
+                            <li><button><i class="fa-solid fa-trash fa-xl"></i></button></li>
+                            
+                        </ul> 
+                    </td>
+                    <td style="width: 20%;">
+                        <ul class="itms">
+                            <li>$50</li>
+                             
+                            
+                         </ul>
+                        </td>
+                    <td style="width: 20%;"><button class="crt"><i class="fa-solid fa-cart-shopping fa-xl"></i></i></button></td>
+                    
+                </tr>
+                <tr>
+                    <td style="width: 20%;"><div class="watch-item"><img src="iphone14.jpg"></div></td>
+                    <td style="width: 40%;">
+                        <ul class="itms">
+                            <li>APPLE IPHONE 14 PRO MAX</li><br>
+                            <li><button ><i class="fa-solid fa-trash fa-xl"></i></i></button></li>
+                         </ul>
+                    </td>
+                    <td style="width: 20%;">
+                        <ul class="itms">
+                            <li>$1170</li>
+                             <li><s>$1300</s> -10%</li>
+                            <li>Price Dropped</li>
+                         </ul>
+                        </td>
+                    <td style="width: 20%;"><button class="crt"><i class="fa-solid fa-cart-shopping fa-xl"></i></button></td>
+                    
+                </tr>
+                <tr>
+                    <td style="width: 20%;"><div class="watch-item"><img src="laptop.jpg"></td>
+                    <td style="width: 40%;">
+                        <ul class="itms">
+                            <li>Dell Inspiron 3502 - Pentium Silver, 4GB Ram, 1TB Hdd (Black) / Lap Top</li><br>
+                            <li><button><i class="fa-solid fa-trash fa-xl"></i></i></button></li>
+                         </ul>
+                    </td>
+                    <td style="width: 20%;">
+                        <ul class="itms">
+                            <li>$1200</li>
+                             <li><s>$1500</s>-20%</li>
+                            
+                         </ul>
+                        </td>
+                    <td style="width: 20%;" ><button class="crt"><i class="fa-solid fa-cart-shopping fa-xl"></i></button></td>
+
+                </tr>
+                <tr>
+                    <td style="width: 20%;"><div class="watch-item"><img src="tv1.jpg"></td>
+                    <td style="width: 40%;">
+                        <ul class="itms">
+                            <li>NIKAI 43" HD LED TV</li><br>
+                            <li><button><i class="fa-solid fa-trash fa-xl"></i></i></button></li>
+                         </ul>
+                    </td>
+                    <td style="width: 20%;">
+                        <ul class="itms">
+                            <li>$210</li>
+                             
+                            
+                         </ul>
+                        </td>
+                    <td style="width: 20%;"><button class="crt"><i class="fa-solid fa-cart-shopping fa-xl"></i></button></td>
+                </tr>
+                <tr>
+                    <td style="width: 20%;"><div class="watch-item"><img src="headset.jpg"></td>
+                    <td style="width: 40%;">
+                        <ul class="itms">
+                            <li>P47 WIRELESS GAMING HEADSET</li><br>
+                            <li><button><i class="fa-solid fa-trash fa-xl"></i></i></button></li>
+                         </ul>
+                    </td>
+                    <td  style="width: 20%;">
+                        <ul class="itms">
+                            <li>$50</li>
+                             
+                            
+                         </ul>
+                        </td>
+                    <td style="width: 20%;"><button class="crt"><i class="fa-solid fa-cart-shopping fa-xl"></i></button></td>
+                </tr>
+            </table>
+        </div>
+        <!--bottum -->   
+    </div><div class="bottom1">
+        <div class="btm1"><label style="font-weight: bold;">Buy</label>
+          <ul class="btm"> 
+            <li>Registration</li>
+            <li>Money Back Guarantee</li>
+            <li>Bidding & buying help</li>
+            <li>Stores</li>
+        </ul></div>
+        <div class="btm2"><label style="font-weight: bold;">Sell</label>
+        <ul class="btm">
+          <li>Start selling</li>
+          <li>Learn to sell</li>
+          <li>Affiliates</li>
+        </ul></div>
+        <div class="btm3"><label style="font-weight: bold;">Tools & apps</label>
+          <ul class="btm">
+          <li>Developers</li>
+          <li>Security center</li>
+          <li>Site map</li>
+        </ul></div>
+        <div class="btm4"><label style="font-weight: bold;">About us</label>
+        <ul class="btm">
+          <li>Company info</li>
+          <li>News</li>
+          <li>Investors</li>
+          <li>Carreers</li>
+      </ul></div>
+      <div class="btm5"><label style="font-weight: bold;">Community</label>
+      <ul class="btm">
+        <li>Announcements</li>
+        <li>Discount boards</li>
+      </ul></div>
+      <div class="btm6"><label style="font-weight: bold;">Help & Contact</label>
+      
+        <ul class="btm">
+        <li>Seller Information Center</li>
+        <li>Contact us</li>
+        
+      </ul></div>
+
+    </div>
+
+    </body>
+</html>

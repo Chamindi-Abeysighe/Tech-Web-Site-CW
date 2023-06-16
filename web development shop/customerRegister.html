@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> <!--For Icons -->
+  <link rel="stylesheet" href="style.css">
+
+	
+</head>
+
+<body>
+	
+	<div id="myPopup" class="popup">
+    
+		<div class="popup-content" style="width: 614px;">
+      <button id="closePopup" onclick="closeLog();"><i class="fa-sharp fa-solid fa-xmark"></i></i>
+			</button>
+      <div class="logo" style="margin-left: -30px; margin-top: -20px;"><img src="nt.png" width="120px" height="120px"><h2 class="lname">New Tech</h2></div><br><br>
+
+			<h1 style="color:green; text-align: center;">
+				Register
+			</h1><br><br><br>
+			<form action="shop.html"  method="get" class="log" id="mylog">
+        <input type="email" placeholder="User Name/Email" style="margin-left: 5px;" required><br><br><br>
+        <input type="text" placeholder="Mobile Number" style="margin-left: 5px; width: 562px;" required><br><br>
+        <input type="password" placeholder="New Password" style="margin-left: 5px;" required><br><br><br>
+        <select style="width: 564px;height: 45px; text-align: center; margin-left: 5px;">
+          <option>Sri Lanka</option>
+          <option>India</option>
+          <option>New Zealand</option>
+          <option>Canada</option>
+          <option>United States</option>
+          <option>United Kingdom</option>
+        </select><br><br><br><br>
+        <input type="submit" value="Register" onclick="sublog();" style="width: 300px;height: 40px; margin-left: 20%; background-color: #4CBB17; font-size: 20px; color: white; border: none; font-weight: bold; cursor: pointer;">
+      </form>
+			
+      
+		</div>
+	</div>
+
+	<script src="scriptshop.js"></script>
+</body>
+</html>

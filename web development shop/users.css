@@ -1,0 +1,49 @@
+table{
+    width: 100%;
+    font-size: 18px;
+    
+    
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+td{
+    text-align:start;
+
+}
+tr{
+    height: 70px;
+    
+}
+th{
+    text-align: center;
+}
+td:nth-child(2){
+    text-align: center;
+  }
+td:nth-child(3){
+  
+    text-align: center;
+  }
+td:nth-child(4){
+
+    text-align: center;
+  }
+td:nth-child(5){
+    color: rgb(47, 255, 47);
+    text-align: center;
+  }
+  td:last-child{
+    
+    text-align: center;
+  }
+  input{
+    width: 450px;
+    height: 30px;
+    margin-left: 450px;
+  }
+  button{
+    width:40px;
+    height: 40px;
+  }

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web Site</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> <!--For Icons -->
+  
+        
+        
+    </head>
+    <body >
+      <!--navigation bar -->
+
+      <div class="navbar">
+        <a href="#home">About Us</a>
+        
+        <div class="dropdown">
+          <button class="dropbtn"><i class="fa-solid fa-user-tie" style="color: white;"></i>&nbsp;&nbsp;Account
+            <i class="fa fa-caret-down"></i>
+          </button>
+          
+          <div class="dropdown-content">
+            <a href=""><button class="login" onclick="login();">Login</button> &nbsp; &nbsp;<button class="register" onclick="register();">Register</button></a>
+            <a href="orderHistory.html">My Orders</a>
+            <a href="watchlist.html">Watchlist</a>
+            <a href="adminSignin.html">Admin Sign in</a>
+            <a href="customerRegister.html">Log out</a>
+          </div>
+        </div> 
+        
+        <a href="#news">Home</a>
+        
+        
+      </div>
+      <div class="logo"><img src="nt.png" width="120px" height="120px"><h2 class="lname">New Tech</h2></div>
+      <div class="search-container">
+        <form>
+          <input type="text" placeholder="Search.." name="search" style="height: 50px; width: 600px;">
+          <button type="submit" class="searchbox"><i class="fa fa-search"></i></button> 
+        </form>
+        <a href="advancedsearch.html" id="advanced">Advanced</a>
+      </div>
+
+      
+      <!--slide- show -->
+
+        <div class="slideshow-container">
+            
+
+            <div class="mySlides-fade">
+              
+              <img class="topimage1" src="set-item.jpg" alt="" width="1364" height="510">
+              <div class="toptext1">THE BEST<br>ONLINE ELECTRONIC ITEM STORE</div>
+              
+              
+            </div>
+            
+            <div class="mySlides-fade">
+              
+              <img class="topimage" src="lapwal.jpg" alt="" width="1693" height="500" >    
+              
+              
+            </div>
+            
+            <div class="mySlides-fade">
+              
+              <img class="topimage2" src="camerawal.jpg" alt=""  width="1414" height="500">
+              <div class="toptext2">Get Exactly What You Want </div>
+              
+            </div>
+
+            <div class="mySlides-fade">
+                
+                <img class="topimage3" src="set.jpg" alt=""  width="1349" height="507">
+                
+              </div>
+
+              <div><button id="shop-more">Shop More</button></div>
+            
+        </div>
+
+        <br>  <!--slide- show slide dots -->
+        <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span>
+        </div>
+        <div>
+          
+        </div>
+        <br> <!--Main sports  -->
+        <div class="main"><br><br><br>
+
+          
+        
+        <div > 
+            
+            <a href="#targettv"><div id="brand1" class="brands"><img src="watch-tv.png" alt="" ></div></a>
+            <a href="#target"><div id="brand2" class="brands"><img src="cam.png" alt="" ></div></a>
+            <a href="#target"><div id="brand3" class="brands"><img src="print.png" alt="" ></div></a>
+            <a href="#target"><div id="brand4" class="brands"><img src="dron.png" alt="" ></div></a>
+            <a href="#target"><div id="brand5" class="brands"><img src="movie.png" alt="" ></div></a>
+            <a href="#target"><div id="brand6" class="brands"><img src="appliances.png" alt="" ></div></a>
+           
+        </div>
+        <div class="new"> 
+            
+          <a href="#targetaudio"><div id="brand1" class="brands"><img src="audio.png" alt="" ></div></a>
+          <a href="#targetphone"><div id="brand2" class="brands"><img src="ph.png" alt="" ></div></a>
+          <a href="#target"><div id="brand3" class="brands"><img src="lap.png" alt="" ></div></a>
+          <a href="#target"><div id="brand4" class="brands"><img src="watch.png" alt="" ></div></a>
+          <a href="#target"><div id="brand5" class="brands"><img src="game.png" alt="" ></div></a>
+          <a href="#target"><div id="brand6" class="brands"><img src="sec.png" alt="" ></div></a>
+         
+      </div>
+        </div>
+
+        <div class="content">
+          <br><br><br><br><br><br><br><br><br><br><h2 id="targetjust"> Just for You <button id="c">Shop More<i class="fa-solid fa-chevron-right"></i></button></h2><br><hr>
+
+         <!--Content-->
+         <div class="shop-content">
+          <!--box1.1-->
+          <div class="product-box">
+              <img src="camera.jpg" alt="" class="product-img">
+              <h2 class="product-title">Canon DSLR Camera</h2>
+              <p class="product-price">$79.5</p>
+              
+              
+          </div>
+          <!--box1.2-->
+          <div class="product-box">
+              <img src="cctv.jpg" alt="" class="product-img">
+              <h2 class="product-title">CCTV</h2>
+              <p class="product-price">$60</p>
+              
+              
+          </div>
+          <!--box1.3-->
+          <div class="product-box">
+              <img src="minicamer.jpg" alt="" class="product-img">
+              <h2 class="product-title">Mini Small Rechargeable Camera</h2>
+              <p class="product-price">$5.2</p>
+              
+              
+          </div>
+          <!--box1.4-->
+          <div class="product-box">
+              <img src="tab.png" alt="" class="product-img" onclick="tab();">
+              <h2 class="product-title">Samsung Galaxy Tab S6 Lite</h2>
+              <p class="product-price">$450</p>
+              
+              
+          </div>
+          
+      </div>
+    <br><br><br><br><br><h2 id="targetphone" style="text-align: left;">Smart Phones<button id="b" style="float: right;">Shop More<i class="fa-solid fa-chevron-right"></i></button></h2><br>
+      <br><hr>
+      <div class="shop-content2">
+          <!--box2.1-->
+          <div class="product-box">
+              <img src="phone.jpg" alt="" class="product-img">
+              <h2 class="product-title">Redmin Note 11/6</h2>
+              <p class="product-price">$220</p>
+              
+              
+          </div>
+          <!--box2.2-->
+          <div class="product-box">
+              <img src="Iphone.jpg" alt="" class="product-img">
+              <h2 class="product-title">Apple IPhone 11</h2>
+              <p class="product-price">$550.30</p>
+              
+              
+          </div>
+          <!--box2.3-->
+          <div class="product-box">
+              <img src="samsung.jpg" alt="" class="product-img">
+              <h2 class="product-title">Samsung Galaxy A13</h2>
+              <p class="product-price">$320</p>
+              
+              
+          </div>
+          <!--box2.4-->
+          <div class="product-box">
+              <img src="iphone14.jpg" alt="" class="product-img" onclick="phone();">
+              <h2 class="product-title" >Apple IPhone 14 Pro max </h2>
+              <p class="product-price">$1237.03</p>
+              
+              
+          </div>
+          
+      </div>
+      <br><br><br><br><br><h2 id="targetaudio">Audio<button id="r" style="float: right;">Shop More<i class="fa-solid fa-chevron-right"></i></button></h2><br>
+      <hr>
+      
+      <!--Content-->
+      <div class="shop-content3">
+          <!--box3.1-->
+          <div class="product-box">
+              <img src="headset.jpg" alt="" class="product-img">
+              <h2 class="product-title">Kisonli Bluetooth RGB Headset</h2>
+              <p class="product-price">$15.5</p>
+              
+              
+          </div>
+          <!--box3.2-->
+          <div class="product-box">
+              <img src="headset2.jpg" alt="" class="product-img">
+              <h2 class="product-title">P47 Wireless Gaming Headset</h2>
+              <p class="product-price">$35</p>
+              
+            
+              
+          </div>
+          <!--box3.3-->
+          <div class="product-box">
+              <img src="buffel.jpg" alt="" class="product-img">
+              <h2 class="product-title">Subwoofer bluetooth speaker system</h2>
+              <p class="product-price">$48.5</p>
+              
+              
+          </div>
+          <!--box3.4-->
+          <div class="product-box">
+              <img src="bluetooth.jpg" alt="" class="product-img">
+              <h2 class="product-title">Bluetooth Earbuds</h2>
+              <p class="product-price">$19</p>
+              
+              
+          </div>
+        </div>
+
+        <br><br><br><br><br><h2 id="targettv" style="text-align: left;">TV & Home Theater<button id="s" style="float: right;">Shop More<i class="fa-solid fa-chevron-right"></i></button></h2><br>
+      <br><hr>
+      <div class="shop-content4">
+          <!--box4.1-->
+          <div class="product-box">
+              <img src="tv1.jpg" alt="" class="product-img">
+              <h2 class="product-title">New Abans 32" HD LED TV</h2>
+              <p class="product-price">$155.56</p>
+              
+              
+          </div>
+          <!--box4.2-->
+          <div class="product-box">
+              <img src="tv2.jpg" alt="" class="product-img">
+              <h2 class="product-title">Nikai 43" HD LED TV</h2>
+              <p class="product-price">$210</p>
+              
+              
+          </div>
+          <!--box4.3-->
+          <div class="product-box">
+              <img src="remote.png" alt="" class="product-img">
+              <h2 class="product-title">Remort Control</h2>
+              <p class="product-price">$8.7</p>
+              
+              
+          </div>
+          <!--box4.4-->
+          <div class="product-box">
+              <img src="rgb led.jpg" alt="" class="product-img">
+              <h2 class="product-title">RGB LED Controller </h2>
+              <p class="product-price">$7</p>
+              
+              
+          </div>
+          
+      </div>
+      <button id="spmore">Shop more</button>
+      <br><br><br><br><br><br><br><br><br><br><br><hr>
+      
+    
+
+        
+           
+        
+          
+              <!-- cart button -->
+                <button onclick="displayCheckedItems()" id="cart-button"><i class="fa-solid fa-cart-shopping fa-3x"></i></button>
+            
+            
+            
+
+            
+             <!--bottum -->   
+            </div><div class="bottom1">
+                <div class="btm1"><label style="font-weight: bold;">Buy</label>
+                  <ul class="btm"> 
+                    <li>Registration</li>
+                    <li>Money Back Guarantee</li>
+                    <li>Bidding & buying help</li>
+                    <li>Stores</li>
+                </ul></div>
+                <div class="btm2"><label style="font-weight: bold;">Sell</label>
+                <ul class="btm">
+                  <li>Start selling</li>
+                  <li>Learn to sell</li>
+                  <li>Affiliates</li>
+                </ul></div>
+                <div class="btm3"><label style="font-weight: bold;">Tools & apps</label>
+                  <ul class="btm">
+                  <li>Developers</li>
+                  <li>Security center</li>
+                  <li>Site map</li>
+                </ul></div>
+                <div class="btm4"><label style="font-weight: bold;">About us</label>
+                <ul class="btm">
+                  <li>Company info</li>
+                  <li>News</li>
+                  <li>Investors</li>
+                  <li>Carreers</li>
+              </ul></div>
+              <div class="btm5"><label style="font-weight: bold;">Community</label>
+              <ul class="btm">
+                <li>Announcements</li>
+                <li>Discount boards</li>
+              </ul></div>
+              <div class="btm6"><label style="font-weight: bold;">Help & Contact</label>
+              
+                <ul class="btm">
+                <li>Seller Information Center</li>
+                <li>Contact us</li>
+                
+              </ul></div>
+
+            </div>
+
+
+            <script src="scriptshop.js"></script>
+        </body>
+    </html>
